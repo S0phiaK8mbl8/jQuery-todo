@@ -1,0 +1,86 @@
+/* General styles */
+.delete {
+	cursor: pointer;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.hide {
+	display: none;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Crimson Text', serif;
+	background-color: #8B2F18;
+	color: #D3423B;
+}
+h1 {
+	font-family: 'Crimson Text', cursive;
+	color: #D3423B;
+	text-align: center;
+	letter-spacing: .075em;
+}
+.container {
+	background-color: #FFFEE2;
+	width: 80%;
+	margin: 25px auto;
+	padding: 30px;
+	border-radius: 10px;
+}
+/* Form styles */
+.form {
+	width: 50%;
+	margin: 50px auto;
+}
+form input {
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid #D3423B;
+	font-size: 1.5;
+	font-family: 'Crimson Text', serif;
+	color: #9b9b9b;
+}
+form button {
+	margin-left: auto;
+	height: 40px;
+	width: 120px;
+	color: #D3423B;
+	border: 2px solid #D3423B;
+	border-radius: 10px;
+	background-color: #fff;
+	font-family: 'Crimson Text', serif;
+	font-size: 0.8em;
+}
+form button:hover {
+	background-color: #D3423B;
+	color: #fff;
+}
+p#warning {
+	padding-left: 10px;
+}
+/* List styles */
+.list {
+	width: 40%;
+	margin: 50px auto;
+}
+.list ul {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2;
+}
+.list li, form {
+	display: flex;
+	align-items: center;
+}
+span.delete {
+	margin-left: auto;
+	color: #a4ddce;
+	font-size: 1.5;
+}
